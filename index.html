@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Portfolio</title>
+
+  <!-- tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="./style.css">
+<!--  -->
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!--  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Halant:wght@300;400;500;600;700&family=Kaushan+Script&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofadi+One&display=swap"
+    rel="stylesheet">
+</head>
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="nav bg-gray-800 text-white" style="height: 25vh;">
+    <div class="container mx-auto py-6 px-4 flex justify-between items-center h-full">
+        <img class="w-40 h-auto mb-4" src="./images/Cadid_Maker-removebg-preview.png" alt="Candid Maker Logo">
+        <h1 class="candid text-3xl font-bold">CANDID MAKER</h1>
+        <nav aria-label="Main Navigation">
+            <a href="#about" class="px-4 py-2 text-lg hover:text-gray-300">About</a>
+            <a href="#gallery" class="px-4 py-2 text-lg hover:text-gray-300">Gallery</a>
+            <a href="#vvdo" class="px-4 py-2 text-lg hover:text-gray-300">Videos</a>
+            <a href="#contact" class="px-4 py-2 text-lg hover:text-gray-300">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Landing Page -->
+<section id="home" class="hero-section relative w-full h-screen overflow-hidden">
+    <div class="carousel-images absolute inset-0 w-full h-full">
+        <div class="carousel-image bg-cover bg-center h-full w-full opacity-0 animate-fade-in-1"
+            style="background-image: url('images/photogrpy.jpg');"></div>
+        <div class="carousel-image bg-cover bg-center h-full w-full opacity-0 animate-fade-in-2"
+            style="background-image: url('images/q2.jpeg');"></div>
+        <div class="carousel-image bg-cover bg-center h-full w-full opacity-0 animate-fade-in-3"
+            style="background-image: url('images/pexels-nout-gons-80280-248159.jpg');"></div>
+    </div>
+    <div class="container relative z-10 text-center flex flex-col items-center justify-center h-full">
+        <h1 class="text-4xl md:text-5xl font-bold text-white text-center">Photography Captures</h1>
+        <p class="text-xl md:text-2xl text-gray-200 mt-4 text-center">feeling moments, transforming them into timeless memories</p>
+    </div>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="full-height w-full h-screen">
+    <div class="content ">
+        <h1 class="text-3xl font-semibold text-center text-gray-800 mb-10 abt mt-20">Photography</h1>
+        <p class="mx-auto  mx-auto p-5">Capturing moments that tell a story. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam obcaecati aliquam, assumenda voluptatum quos earum itaque enim omnis esse voluptate, ex, nesciunt pariatur. Nulla dolore cumque voluptate quia recusandae enim! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi debitis minima autem accusamus explicabo beatae voluptas animi doloremque saepe veritatis! Quasi at voluptas natus in magnam minima, illo quaerat? Est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempora aliquam. Alias eius voluptate quas officiis nemo cumque. Dicta quam optio repudiandae ullam explicabo labore sunt sit accusamus consequatur velit.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
+      <img src="./images/p1.jpeg" alt="Photography Image 1" class="w-full h-auto rounded-lg shadow-md">
+      <img src="./images/p2.webp" alt="Photography Image 2" class="w-full h-auto rounded-lg shadow-md">
+      <img src="./images/pexels-nout-gons-80280-248159.jpg" alt="Photography Image 3" class="w-full h-auto rounded-lg shadow-md">
+  </section>
+<!-- </section> -->
+  
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-12 bg-gray-200 ">
+    <div class="container mx-auto px-4 ">
+      <h2 class=" glry text-4xl font-semibold text-center text-gray-800 mb-10 gly">Gallery</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Image 1 -->
+        <div data-aos="fade-right" class="relative group">
+          <img src="./images/photogpy.jpeg" alt="img 1" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+          </div>
+        </div>
+        <!-- Image 2 -->
+        <div data-aos="fade-down"  class="relative group">
+          <img src="./images/photogrpy1.jpg" alt="img 2" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+
+          </div>
+        </div>
+        <div data-aos="fade-down" class="relative group">
+          <img src="./images/photoimg3.jpg" alt="img 3" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+
+          </div>
+        </div>
+        <div  data-aos="fade-left"     class="relative group">
+          <img src="./images/img4photo.jpg" alt="img 4" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+
+          </div>
+        </div>
+        <div data-aos="fade-right" class="relative group">
+          <img src="./images/n1.jpeg" alt="img 4" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+
+          </div>
+        </div>
+        <div data-aos="fade-up"  class="relative group">
+          <img src="./images/n2.jpeg" alt="img 4" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+
+          </div>
+        </div>
+        <div data-aos="fade-up"  class="relative group">
+          <img src="./images/n3.jpeg" alt="img 4" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+
+          </div>
+        </div>
+        <div data-aos="fade-left"   class="relative group">
+          <img src="./images/n6.jpeg" alt="img 4" class="w-full h-72 object-cover rounded-lg shadow-lg">
+          <div
+            class="absolute inset-0 bg-black bg-opacity-25 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold rounded-lg transition">
+
+          </div>
+        </div>
+        <!-- Add more images in a similar way -->
+      </div>
+    </div>
+  </section>
+  <!-- add vdos -->
+  <!--  -->
+  <section id="vvdo" class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class=" vdos text-4xl font-semibold text-center text-gray-800 mb-10">Videos</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <!-- Video 1 -->
+        <div class="w-full h-60 aspect-w-16 aspect-h-9">
+          <iframe src="./vedios/vdoweding1.mp4" title="Video 1" class="w-full h-full rounded-lg shadow-lg "
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="w-full aspect-w-16 aspect-h-9">
+          <iframe src="./vedios/vdowding2.mp4" title="Video 2" class="w-full h-full rounded-lg shadow-lg"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="w-full aspect-w-16 aspect-h-9">
+          <iframe src="./vedios/vdowdng3.mp4" title="Video 3" class="w-full h-full rounded-lg shadow-lg"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="w-full h-60 aspect-w-16 aspect-h-9">
+          <iframe src="./vedios/vdowdng4.mp4" title="Video 4" class="w-full h-full rounded-lg shadow-lg"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="w-full aspect-w-16 aspect-h-9">
+          <iframe src="./vedios/vdo5wdng.mp4" title="Video 5" class="w-full h-full rounded-lg shadow-lg"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- Video 6 -->
+        <div class="w-full aspect-w-16 aspect-h-9">
+          <iframe src="./vedios/vdo6wdng.mp4" title="Video 6" class="w-full h-full rounded-lg shadow-lg"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 bg-gray-200">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class=" foot get text-4xl font-semibold text-gray-800 mb-6">Get in Touch</h2>
+      <p class="text-gray-600 max-w-xl mx-auto mb-4">
+        Interested in working together or just want to say hello? Feel free to reach out!
+      </p>
+      <a href="mailto:your-email@example.com"
+        class="text-lg font-semibold text-gray-800 underline">candidmaker01@gmail.com</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+    </div>
+    <footer class="bg-gray-800 p-4">
+      <div class="flex justify-center space-x-6">
+        <a href="https://facebook.com" target="_blank" class="text-white hover:text-blue-500">
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a href="https://whatsapp.com" target="_blank" class="text-white hover:text-green-500">
+          <i class="fab fa-whatsapp fa-lg"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="text-white hover:text-pink-500">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+      </div>
+      <p class="text-center">&copy; 2024 Candid Maker. All Rights Reserved.</p>
+    </footer>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+</body>
+
+</html>
